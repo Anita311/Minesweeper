@@ -3,10 +3,15 @@ This repository consist of code for Minesweeper Game in CPP
 
 # MODULES INCLUDED :
 1). myHeader.cpp
+
 2). main.cpp
+
 3). generateMinesweeper.cpp
+
 4). minesweeperPlayer.cpp
+
 5). countAdjacentMines.cpp
+
 6). printGrid.cpp
 
 # CONFIGURATION	:
