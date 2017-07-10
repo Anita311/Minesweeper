@@ -9,7 +9,6 @@ int main()
 	cout << "\t\t\tWelcome to Minesweeper " << endl;
 	cout << " Instructions : " <<  endl << endl;
 	cout << "Enter your move in the format : 1 2" << endl;
-	cout << "To flag some location, simply hit f and enter it's location" << endl;
 	cout << endl;
 	cout << "Press 1 for Beginners level " << endl;
 	cout << "Press 2 for Medium level " << endl;
@@ -48,7 +47,7 @@ int main()
 			win = minesweeperPlayer(myGrid, realGrid, row, col, size);
 			printGrid(myGrid, size);
 			int n = unknownsLeft(myGrid, size);
-			if(win == 1 && n == mines)
+			if(win == 1 || n == mines)
 			{
 				cout << "Yeah babe..!!, You did it";
 				win = 1; 
@@ -56,7 +55,10 @@ int main()
 		}
 		else
 			cout << "Enter valid location ";
-		cout << endl << "Do you want to flag a certain location : Y/N";
+			
+		// Uncomment following lines to enable flag in the game
+			
+		/*cout << endl << "Do you want to flag a certain location : Y/N";
 		cin >> flag	;
 		if(toupper(flag) == 'Y'){
 			cout << endl << "Enter the location you want to flag : ";
@@ -66,7 +68,8 @@ int main()
 			printGrid(myGrid, size);	
 			m-- ;
 			cout << endl << "  Mines Left : " << m;
-		}		
+		}	*/
+		
 	}
 	return 0; 
 }	
