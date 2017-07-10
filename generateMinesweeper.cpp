@@ -4,6 +4,8 @@
 #include"myHeader.cpp"
 void generateMinesweeper(char realGrid[][25], char myGrid[][25], int size, int mines)
 {
+	// To generate different arrangement every single time
+	srand(time (NULL));
 	int x, y;
 	for(int i = 0; i < size; i++)
 	{
