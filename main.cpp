@@ -41,7 +41,6 @@ int main()
 	// Play until to win
 	while(!win){
 		cout << endl << "Enter the location you want to unlock : ";	
-		row = flag;
 		cin  >> row >> col ;
 		cout <<  endl;
 		if(checkValid(row, col, size))
