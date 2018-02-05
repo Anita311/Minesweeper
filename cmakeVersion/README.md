@@ -7,7 +7,9 @@ This folder has revised version of Minesweeper with cmake file and test file to 
 ## Execution:-
 - Clone the repo, name the folder as Minesweeper.
 - Navigate to the folder from terminal.
-- `cmake .`
+- `mkdir build`
+- `cd build`
+- `cmake ..`
 - `make`
 - `./Minesweeper`
 
