@@ -1,7 +1,7 @@
-# Minesweeper:
+## Minesweeper:
 This repository consist of code for Minesweeper Game in CPP
 
-# MODULES INCLUDED :
+#### MODULES INCLUDED :
 1). myHeader.cpp
 
 2). main.cpp
@@ -14,7 +14,7 @@ This repository consist of code for Minesweeper Game in CPP
 
 6). printGrid.cpp
 
-# CONFIGURATION	:
+#### CONFIGURATION	:
 - All files are configured together with a header file "myHeader.cpp", having all other essential header files
   and function declarations.
 - main.cpp consist of driver code for whole project
@@ -23,10 +23,10 @@ This repository consist of code for Minesweeper Game in CPP
 - printGrid.cpp prints the grid
 - minesweeperPlayer.cpp consist all the conditions to play the game recursively.
 
-# Compile and Run:
+#### Compile and Run:
 Compile :  g++ myHeader.cpp main.cpp generateMinesweeper.cpp minesweeperPlayer.cpp countAdjacentMines.cpp printGrid.cpp
 
 Run     :  ./a.out
 
-# Note:
+#### Note:
 All files must be saved in same location
